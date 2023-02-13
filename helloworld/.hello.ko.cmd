@@ -1,1 +1,0 @@
-cmd_/home/alexander/helloworld/hello.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/alexander/helloworld/hello.ko /home/alexander/helloworld/hello.o /home/alexander/helloworld/hello.mod.o;  true
