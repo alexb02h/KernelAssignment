@@ -1,1 +1,0 @@
-cmd_/home/alexander/src/numpagefaults.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/alexander/src/numpagefaults.ko /home/alexander/src/numpagefaults.o /home/alexander/src/numpagefaults.mod.o;  true
